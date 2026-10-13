@@ -3,28 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía de Comandos Git</title>
+    <meta name="description" content="Diccionario interactivo de comandos Git: aprende a trabajar con repositorios, ramas y commits.">
+    <title>Git · Diccionario de Comandos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Diccionario Git Interactiva</h1>
-        <p>Aprendiendo a trabajar con ramas</p>
+
+    <!-- Fondo decorativo -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="hero">
+        <div class="hero__inner">
+
+            <div class="hero__badge">
+                <span class="hero__badge-dot"></span>
+                Guía de referencia · v1.0
+            </div>
+
+            <h1 class="hero__title">
+                Diccionario <span class="hero__title-accent">Git</span>
+            </h1>
+
+            <p class="hero__subtitle">
+                Aprendiendo a trabajar con ramas
+            </p>
+
+            <p class="hero__desc">
+                Una colección visual de los comandos esenciales de Git,
+                pensada para consultar rápido y entender de un vistazo
+                qué hace cada uno.
+            </p>
+
+            <div class="hero__meta">
+                <span class="hero__meta-item">
+                    <span class="hero__meta-key">$</span> git --version
+                </span>
+                <span class="hero__meta-item hero__meta-item--muted">
+                    referencia rápida
+                </span>
+            </div>
+
+        </div>
     </header>
+
     <main id="contenedor">
+
         <section class="comando">
-            <h2>git init</h2>
-            <p>Inicializa un nuevo repositorio local en la carpeta actual.</p>
+            <div class="comando__head">
+                <span class="comando__num">01</span>
+                <h2 class="comando__name">git init</h2>
+            </div>
+            <p class="comando__desc">
+                Inicializa un nuevo repositorio local en la carpeta actual.
+            </p>
         </section>
+
         <section class="comando">
-            <h2>git clone</h2>
-            <p>Descarga una copia exacta de un repositorio remoto.</p>
+            <div class="comando__head">
+                <span class="comando__num">02</span>
+                <h2 class="comando__name">git clone</h2>
+            </div>
+            <p class="comando__desc">
+                Descarga una copia exacta de un repositorio remoto.
+            </p>
         </section>
+
         <section class="comando">
-            <h2>git add</h2>
-            <p>Prepara los cambios (staging) para ser incluidos en el próximo commit.</p>
+            <div class="comando__head">
+                <span class="comando__num">03</span>
+                <h2 class="comando__name">git add</h2>
+            </div>
+            <p class="comando__desc">
+                Prepara los cambios (staging) para ser incluidos en el próximo commit.
+            </p>
         </section>
+
         <!-- Aquí los estudiantes agregarán más comandos luego -->
+
+        <div class="siguiente">
+            <span class="siguiente__plus" aria-hidden="true">+</span>
+            <p>Próximamente más comandos…</p>
+        </div>
+
     </main>
+
+    <footer class="pie">
+        <div class="pie__inner">
+            <img src="logo_web.png" alt="Logo del proyecto Diccionario Git" class="pie__logo">
+            <div class="pie__info">
+                <p class="pie__texto">Desarrollado por: <strong>Zahid Nazate</strong></p>
+                <p class="pie__nota">Proyecto educativo · Diccionario de comandos Git</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
